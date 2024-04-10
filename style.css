@@ -1,0 +1,77 @@
+@import url(https://fonts.google.com/share?selection.family=Karla:ital,wght@0,200..800;1,200..800);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+}
+
+.font {
+  font-family: 'Dancing Script';
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.flower {
+  position: relative;
+  display: inline;
+  padding: 15px 50px;
+  background: #8c00ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: transform 0.5;
+  font-family: 'Libre Baskerville';
+}
+
+.flower:active {
+  transform: scale(0.96);
+  opacity: 0.5;
+}
+
+.letter {
+  font-family: 'Libre Baskerville';
+  position: relative;
+  display: inline;
+  padding: 15px 50px;
+  background: #8c00ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: transform 0.5 ease;
+}
+
+.letter:active {
+  transform: scale(0.96);
+  opacity: 0.5;
+}
